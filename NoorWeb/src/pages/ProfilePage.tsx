@@ -255,11 +255,10 @@ export default function ProfilePage() {
             <div>
               <p className={`font-medium text-sm ${dm ? 'text-red-300' : 'text-red-700'}`}>⚠️ When data will be LOST:</p>
               <ul className={`text-xs mt-1 space-y-1 ${dm ? 'text-red-300/70' : 'text-red-600'}`}>
-                <li>• Browser cache / cookies / data clear karein</li>
-                <li>• "Clear browsing data" use karein</li>
-                <li>• Incognito / Private mode mein use karein</li>
-                <li>• Different browser ya device par login karein</li>
-                <li>• Browser uninstall karein</li>
+                <li>• Use the "Clear browsing data" option</li>
+                <li>• Use the browser in Incognito / Private mode</li>
+                <li>• Log in using a different browser or device</li>
+                <li>• Uninstall the browser</li>
               </ul>
             </div>
           </div>
@@ -269,10 +268,10 @@ export default function ProfilePage() {
             <div>
               <p className={`font-medium text-sm ${dm ? 'text-emerald-300' : 'text-emerald-700'}`}>✅ When data is SAFE:</p>
               <ul className={`text-xs mt-1 space-y-1 ${dm ? 'text-emerald-300/70' : 'text-emerald-600'}`}>
-                <li>• Same browser mein normally use karein — data safe hai</li>
-                <li>• Browser band karein aur dobara kholein — data safe hai</li>
-                <li>• Computer restart karein — data safe hai</li>
-                <li>• Logout karein aur wapas login karein — data safe hai ✅</li>
+                <li>• Use the same browser normally — your data is safe</li>
+                <li>• Close the browser and open it again — your data is safe</li>
+                <li>• Restart your computer — your data is safe</li>
+                <li>• Log out and log back in — your data is safe ✅</li>
               </ul>
             </div>
           </div>
@@ -282,7 +281,7 @@ export default function ProfilePage() {
             <div>
               <p className={`font-medium text-sm ${dm ? 'text-blue-300' : 'text-blue-700'}`}>💡 Best Practice:</p>
               <p className={`text-xs mt-1 ${dm ? 'text-blue-300/70' : 'text-blue-600'}`}>
-                Har hafte <strong>Backup Download</strong> karein neeche diye gaye button se. Agar data delete ho jaye to backup file se wapas restore kar sakte hain!
+                Download the <strong>Backup</strong> every week using the button below. If the data gets deleted, you can restore it from the backup file.
               </p>
             </div>
           </div>
@@ -315,7 +314,7 @@ export default function ProfilePage() {
             <FileDown size={32} className="text-emerald-500 mb-3" />
             <p className={`font-semibold ${dm ? 'text-white' : 'text-gray-900'}`}>📥 Download Backup</p>
             <p className={`text-xs mt-1 ${dm ? 'text-gray-400' : 'text-gray-500'}`}>
-              Apna sara data (tasks, bookmarks, Quran progress, prayer logs) ek JSON file mein download karein
+              Download all your data (tasks, bookmarks, Quran progress, prayer logs) in a single JSON file.
             </p>
           </button>
 
@@ -327,7 +326,7 @@ export default function ProfilePage() {
             <FileUp size={32} className="text-blue-500 mb-3" />
             <p className={`font-semibold ${dm ? 'text-white' : 'text-gray-900'}`}>📤 Restore from Backup</p>
             <p className={`text-xs mt-1 ${dm ? 'text-gray-400' : 'text-gray-500'}`}>
-              Pehle se download ki hui backup file upload karein aur apna data wapas laaein
+              Upload a previously downloaded backup file to restore your data.
             </p>
           </button>
           <input
@@ -342,7 +341,7 @@ export default function ProfilePage() {
         {/* Last backup info */}
         <div className={`mt-4 p-3 rounded-xl text-xs flex items-center gap-2 ${dm ? 'bg-gray-800 text-gray-400' : 'bg-gray-50 text-gray-500'}`}>
           <Info size={14} />
-          Tip: Backup file ko Google Drive, WhatsApp ya Email mein save karein taa ke kabhi bhi restore kar sakein
+          Tip: Save the backup file to Google Drive, WhatsApp, or Email so you can restore it anytime.
         </div>
       </div>
 
@@ -358,7 +357,7 @@ export default function ProfilePage() {
             <p className={`text-sm font-medium mb-3 ${dm ? 'text-red-300' : 'text-red-700'}`}>
               Kya aap sure hain? Yeh tasks aur bookmarks delete kar dega. Prayer logs safe rahenge. 
               <br />
-              <strong>Pehle backup download kar lein!</strong>
+              <strong>Download Backup first!</strong>
             </p>
             <div className="flex gap-2">
               <button
@@ -371,7 +370,7 @@ export default function ProfilePage() {
                 onClick={handleClearAllData}
                 className="px-4 py-2 rounded-lg text-sm bg-red-600 text-white hover:bg-red-700 transition"
               >
-                Haan, Delete Karein
+                Yes, Delete 
               </button>
             </div>
           </div>
