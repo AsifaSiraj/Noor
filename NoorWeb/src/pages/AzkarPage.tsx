@@ -277,7 +277,7 @@ export default function AzkarPage() {
               className="w-full py-4 rounded-2xl border-2 border-dashed border-emerald-400 text-emerald-600 font-semibold hover:bg-emerald-50 dark:hover:bg-emerald-900/20 transition flex items-center justify-center gap-2"
             >
               <Plus size={20} />
-              Naya Zikr Add Karein
+              Add New Zikr
             </button>
           )}
 
@@ -363,7 +363,7 @@ export default function AzkarPage() {
                 onClick={handleAddCustomZikr}
                 className="w-full py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-emerald-600 text-white font-bold hover:from-emerald-600 hover:to-emerald-700 transition shadow-lg"
               >
-                ✅ Zikr Save Karein
+                Save Zikr
               </button>
             </div>
           )}
@@ -462,7 +462,7 @@ export default function AzkarPage() {
 
                   {completed && (
                     <div className="text-center">
-                      <span className="text-emerald-500 text-sm font-medium">🎉 Masha'Allah! Mukamal ho gaya!</span>
+                      <span className="text-emerald-500 text-sm font-medium">🎉 Masha'Allah! Complete!</span>
                     </div>
                   )}
                 </div>
@@ -527,7 +527,7 @@ export default function AzkarPage() {
                 className={`flex items-center gap-2 px-4 py-2 rounded-xl ${state.darkMode ? 'bg-gray-800 hover:bg-gray-700 text-gray-300' : 'bg-gray-100 hover:bg-gray-200 text-gray-600'} transition font-medium`}
               >
                 <ChevronLeft size={18} />
-                Wapas Chapters
+                Previous Chapters
               </button>
 
               {selectedBookChapter && (
