@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Noor Logo](https://img.shields.io/badge/🌙_NOOR-Islamic_App-0d9488?style=for-the-badge&labelColor=064e3b)
+![Noor Logo](https://img.shields.io/badge/🌙_NOOR-Islamic_https://019c9abc-7747-78e5-8455-a0b88e9d18a4.arena.site/)
 
 **A comprehensive full-stack Islamic web application with modern UI/UX, built to help Muslims manage their daily worship, Quran reading, prayer tracking, and spiritual growth.**
 
