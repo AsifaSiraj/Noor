@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Noor_App-16a34a?style=for-the-badge&labelColor=14532d)](https://019c9abc-7747-78e5-8455-a0b88e9d18a4.arena.site/)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Noor_App-16a34a?style=for-the-badge&labelColor=14532d)](https://noor-coral-three.vercel.app)
 
 **A comprehensive full-stack Islamic web application with modern UI/UX, built to help Muslims manage their daily worship, Quran reading, prayer tracking, and spiritual growth.**
 
